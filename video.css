@@ -1,0 +1,19 @@
+body {
+	background-color:#87CEFA; 
+}
+
+.vstyle {
+	margin: 10px;
+	border: 10px solid #ECECEC;
+	box-sizing: border-box;
+}
+
+.bstyle {
+	border: 3px solid #ECECEC;
+	box-sizing: border-box;
+}
+
+h3 {
+	text-align:center; 
+	color:gold;
+}

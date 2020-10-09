@@ -1,0 +1,43 @@
+<html>
+ <head>
+  <title>Gamers Headquarters</title>
+ </head>
+ <body>
+
+ <?php
+
+        if($_SERVER["REQUEST_METHOD"] == "POST") {
+
+			$vid = $_POST["vid"];
+			<center>
+				<video width="600" controls autoplay>
+					<source src="$vid" type="video/mp4">
+				</video><br>
+			</center>
+        } else {
+			<center>
+				<video width="600" controls autoplay>
+					<source src="1" type="video/mp4">
+				</video><br>
+			</center>
+        }
+
+
+?>
+
+
+<FORM METHOD="POST" name="input" ACTION="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+
+        <center>
+		
+			<input type="image" name="submit" value="1" src="ending.png" border="0" alt="Submit" height="100" width="100"/>
+			<input type="image" name="submit" value="2" src="ending2.png" border="0" alt="Submit"  height="100" width="100"/>	
+			
+		</center>
+
+</div>
+
+</FORM>
+
+
+
